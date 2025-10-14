@@ -22,6 +22,10 @@ You’re building a rhythm game, and you’re writing a method named DidPlayerHitBea
 
  come up with a metaphor to explain the relationship between classes and Components with a metaphor. Also describe how methods and member variables factor into that metaphor
 Looking at this metaphorically, Components are the bottles of potions that make the potion what it is, the classes are the liquid that is stored within the potion that makes it unique and different compared to other potions and the variables are the specific ingredidents needed to create this liquid/class therefore putting it all together brings forth the component or potion. 
+
+Why do you think the balls get extremely bright, especially in the Scene, if they bounce too many times?
+
+Since the cod makes the ball bright with each bounce it's expected that as the ball bounces each time it's hex code gets birghter and brighter with each contact- if they're coded to be faster this mean they'bounce more and their colors will change at a quicker rate and etc.. if they jump slower the colors will change slower.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
