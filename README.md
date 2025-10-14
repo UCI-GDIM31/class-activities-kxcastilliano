@@ -14,6 +14,14 @@ the bounce variable is an int instead of a float, bool or string due to the fact
 The error you got after Step X of Part 2 told you something useful about why that line of code was broken- what was it?
 After trying to process the code, the console explains that there are errors in the code that need to be fixed and can't be compiled until the errors are resolved?
 
+### W3
+Tables 1-6
+You’re building a rhythm game, and you’re writing a method named DidPlayerHitBeat that tells you whether or not the player accurately hit a beat based on the time that they pressed a key.
+
+(Table 2) For building this Rhythm game, the method would be a float in which the result is declared based on the time the player hits the beat versus the expected time that the player needs to hit in order to get the perfect accuracy. the return type would be the out come of whether or not the player met or missed the expected accuracy/beat (boolean true or false).
+
+ come up with a metaphor to explain the relationship between classes and Components with a metaphor. Also describe how methods and member variables factor into that metaphor
+Looking at this metaphorically, Components are the bottles of potions that make the potion what it is, the classes are the liquid that is stored within the potion that makes it unique and different compared to other potions and the variables are the specific ingredidents needed to create this liquid/class therefore putting it all together brings forth the component or potion. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
