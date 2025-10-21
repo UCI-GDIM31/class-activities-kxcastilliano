@@ -79,17 +79,17 @@ public class CatW3 : MonoBehaviour
 
     // ------------------------------------------------------------------------
     // This method is called by Unity whenever the cat hits something.
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag.Equals("ground"))
-        {
-            _isGrounded = true;
-        }
+   // private void OnCollisionEnter2D(Collision2D collision)
+   // {
+    //    if (collision.gameObject.tag.Equals("ground"))
+    //    {
+    //        _isGrounded = true;
+     //   }
 
-        BallW3 ball = collision.gameObject.GetComponent<BallW3>();
-        if (ball != null)
-        {
-            ChangeColor(ball);
+     //   BallW3 ball = collision.gameObject.GetComponent<BallW3>();
+     //   if (ball != null)
+     //   {
+     //     //  ChangeColor(ball);
 
             // STEP 2 ---------------------------------------------------------
             // Below this comment, CALL the method named DecreaseHealth.
@@ -110,8 +110,8 @@ public class CatW3 : MonoBehaviour
             
 
             // STEP 6 ---------------------------------------------------------
-        }
-    }
+        
+    
 
     // STEP 3 -----------------------------------------------------------------
     // This method decreases the player's health and updates the UI.
@@ -166,8 +166,8 @@ public class CatW3 : MonoBehaviour
     // STEP 4 -----------------------------------------------------------------
 
     // ------------------------------------------------------------------------
-    private void ChangeColor(BallW3 ball)
-    {
+   // private void ChangeColor(BallW3 ball)
+   
         // STEP 7 -------------------------------------------------------------
         // Set the value of the _spriteRenderer's color variable to the value
         //      of the ball's ballRenderer's color variable.
@@ -175,11 +175,10 @@ public class CatW3 : MonoBehaviour
 
 
         // STEP 7 -------------------------------------------------------------
-    }
+    
     
     // ------------------------------------------------------------------------
-    private void DestroyCat()
-    {
-        Destroy(gameObject);
-    }
-}
+   // private void DestroyCat()
+   // {
+   //     Destroy(gameObject);
+//}

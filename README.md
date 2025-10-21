@@ -35,6 +35,15 @@ In line 5 of the code we are making a new mmber variable titled "_movespeed_" th
 line 22 declares a new variable under Update (), this  member varaible is a float titled "translation" and we are setting it to change the vertical soeed of the player by multiplying "_movespeed_" with Time.Delta. 
 
 Finally in Line 25, we are calling the method in order for it to actually work. (0,0, translation) are the arguments for the method.
+
+In Class Activity part 2
+1. What solution did you come up with for the collider activity, and why? Specifically- which objects did you add Rigidbodies to, and which object(s) did you check Is Trigger on?
+For the Colliders of the Cat, Goal and Soccerball, it was the cat and the ball that require rigidbodies due to the fact that both objects require physics; the cat needs to be able to move and knock into the ball where as the ball needs to be able to bounce, move, and also be able to touch and interact with the cat. The 
+goal doesn't require a rigid body since it is a stable still object. However, the Goal requires the Is Trigger checked because it is simply a zone, a collider that isn't physical that the ball enters and collides with, different from the cat that needs physical collision.
+
+2. IF your game did not work perfectly the first time you tested it, talk about what you had to fix.
+Some issues I faced doing this activity was that I realized I was putting the colliders in the "kitty" peice inside of the Cat object which didn't show in the game when it ran and didn't actually put colliders on the cat, so I made sure to change that. Other than that, my cat was also just flipping and the screen was rotating in circles so I made sure to freeze the rotation for the X and Z axis of the cat. 
+ 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
