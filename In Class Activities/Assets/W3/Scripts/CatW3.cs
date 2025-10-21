@@ -96,7 +96,7 @@ public class CatW3 : MonoBehaviour
             // Notice this method's return type is void- that means we don't
             //      have to store the result anywhere.
             
-
+          //  float DecreaseHealth
             // STEP 2 ---------------------------------------------------------
 
             // STEP 6 ---------------------------------------------------------
@@ -126,8 +126,9 @@ public class CatW3 : MonoBehaviour
     //    '_healthText' is a TMP_Text Component, and 'text' is the variable that
     //     decides the text that displays in the UI for this Component.
     //      Hint: there's just one operator missing!
-    private void DecreaseHealth()
-    {
+   // private void DecreaseHealth()
+   // {
+     //   _healthText = _health;
         // write Step 3 below this comment!
 
 
@@ -136,6 +137,8 @@ public class CatW3 : MonoBehaviour
         //      and store the result in _speechText's text variable.
         // This will look very similar to the above line to change _healthText ;)
 
+     //private void GetHealthSpeechText(_)
+      //  { return _speechText; }
 
         // STEP 5 -------------------------------------------------------------
     }
@@ -153,11 +156,12 @@ public class CatW3 : MonoBehaviour
     //      return "OH NO!".
     // 2. Otherwise, return "ouch".
 
-    //private ??? GetHealthSpeechText()
-    //{
-        // put the method body here!
+ //   private float GetHealthSpeechText()
+  //  { if (_health<_maxHealth) 
+   //         return _healthText.OH NO!;
         
-    //}
+        
+   // }
     
     // STEP 4 -----------------------------------------------------------------
 
