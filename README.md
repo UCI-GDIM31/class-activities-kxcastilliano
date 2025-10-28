@@ -44,7 +44,21 @@ goal doesn't require a rigid body since it is a stable still object. However, th
 2. IF your game did not work perfectly the first time you tested it, talk about what you had to fix.
 Some issues I faced doing this activity was that I realized I was putting the colliders in the "kitty" peice inside of the Cat object which didn't show in the game when it ran and didn't actually put colliders on the cat, so I made sure to change that. Other than that, my cat was also just flipping and the screen was rotating in circles so I made sure to freeze the rotation for the X and Z axis of the cat. 
  
+
+ ### W5
+ (table 2)
+
+ Collaborative Learning:
+ A question that came up was: "What is the difference between class object and Gameobject variable"
+The answer of this question was that the  gameobject variable is used to identify anything within a class, it helps identify a tag or name within a class/game object.
+
+Another question that occured was: "What is the difference between the transform() and a Vector3?"
+The answer that we came up with was that Transform is the proper class/component that stores Vector3 parts within itself, if we want to use vector3 we use transform().
+
+Programming:
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
+- 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 
