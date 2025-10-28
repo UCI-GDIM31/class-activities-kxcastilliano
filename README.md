@@ -56,6 +56,11 @@ Another question that occured was: "What is the difference between the transform
 The answer that we came up with was that Transform is the proper class/component that stores Vector3 parts within itself, if we want to use vector3 we use transform().
 
 Programming:
+First create the DeerW5 Class, must be a monobehavior since it requires tuning, as well as the variables such as it
+s move speed and turn speed since those are variables that play with physics and will get th deer to move. These variables, similar to the one in the Cat script should be SerealizedFields and be private floats. Finally Within the class we must use methods such as Start() to activate the movement and the deers functions, Transform() since it is needed to tune the direction in whichn the deer moves and maybe a Collider Component methods since we are required to make the dear hit a certain target. 
+
+Updated plan notes:
+Need to make a variable that will allow us to attach a target to the Deer script. 
 
 ## Open-Source Assets
 ### W1
