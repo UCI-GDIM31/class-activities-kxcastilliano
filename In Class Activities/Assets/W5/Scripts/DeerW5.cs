@@ -6,15 +6,15 @@ using UnityEngine.AI;
 //      maybe check out CatW5...
 // If you copied the class declaration from CatW5, you'd only need to change one thing...
 
-public class DeerW5 : MonoBehaviour
+//public class DeerW5 : MonoBehaviour
 {
-    [SerializeField] private Transform _destination;
-    private void Start()
+   // [SerializeField] private Transform _destination;
+  //  private void Start()
     {
-        NavMeshAgent agent = gameobject.GetComponent<NavMeshAgent>();
+       // NavMeshAgent agent = gameobject.GetComponent<NavMeshAgent>();
 
         {
-            agent.SetDestination(_destination.position);
+           // agent.SetDestination(_destination.position);
         }
     }
 }

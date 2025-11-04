@@ -66,6 +66,21 @@ Need to make a variable that will allow us to attach a target to the Deer script
 Team #2
 {For our table's document I worked on specifically the Math Section}(https://docs.google.com/document/d/1g257orHX8bQNaC57k1DMqCDIpAd95jDwpQPqJiA4ks8/edit?usp=sharing)
 
+Coding Notes:
+Variables Needed/Variable Functions:
+Need a member variable for the bats that also need to be an array that has Bat6 Components (Utilize SerealizeField)
+(all bats needed in the scene)
+
+Bat class needs a speed variable that can be tuned as well as a stop and go method that identifies when the bats are moving or not?
+
+bats require a for loop function that allows the bats to chase the character or Stop. 
+
+Need a message member variable that is also an array, should have different variety of messages that can be sent to the game and said to the character
+
+
+Methods needed:
+Start()? In order to activate the loops/classes
+Update()? To include the statements in the class/component. 
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
