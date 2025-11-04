@@ -62,6 +62,10 @@ s move speed and turn speed since those are variables that play with physics and
 Updated plan notes:
 Need to make a variable that will allow us to attach a target to the Deer script. 
 
+### W6 
+Team #2
+{For our table's document I worked on specifically the Math Section}(https://docs.google.com/document/d/1g257orHX8bQNaC57k1DMqCDIpAd95jDwpQPqJiA4ks8/edit?usp=sharing)
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
