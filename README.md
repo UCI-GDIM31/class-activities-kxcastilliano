@@ -86,6 +86,11 @@ Update()? To include the statements in the class/component.
 ### W7 
 Table 2 
 {Here is the design pocess of a game my table thought of; I focused on the Animation aspect of the game} (https://docs.google.com/document/d/1G_ZSCA2-UVtHll1uaPGUIZ9OZg3-oBIxvR5bJl7Vl6k/edit?usp=sharing)
+
+Programming process
+The issue that was found in Step 2 of the process is that transform.position wasn't the more favorable method in this instance I think that we were supposed to do a translation instead of a transformation to it's position? This is due to the fact that we want 
+to focus on the Muskrat's local coordinates/rotation rather the global coordinates. 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

@@ -46,7 +46,8 @@ public class MuskratW7 : MonoBehaviour
         // You might want to look below Step 3 for an example :D
         
         float leftright = Input.GetAxis("Horizontal");
-        
+        Vector3 axis = transform.TransformDirection(Vector3.right);
+        transform.RotateRound(axis, leftright(_rotationSpeed * Time.deltaTime);
 
 
         // STEP 3 -------------------------------------------------------------
@@ -86,6 +87,7 @@ public class MuskratW7 : MonoBehaviour
         //      like up, left, right, or forward.
 
         float leftright = Input.GetAxis("Horizontal");
+        transform.Rotate(leftright * _rotationSpeed * Time.deltaTime);
 
         // STEP 1 -------------------------------------------------------------
 
@@ -96,7 +98,7 @@ public class MuskratW7 : MonoBehaviour
         // This line of code is incorrect. 
         // Replace it with a different line of code that uses 'movement' to
         //      move the Muskrat forwards and backwards.
-        transform.position += movement * Vector3.forward * _moveSpeed * Time.deltaTime;
+        transform.translate(movement * Vector3.forward * _moveSpeed * Time.deltaTime);
 
         // STEP 2 -------------------------------------------------------------
 
