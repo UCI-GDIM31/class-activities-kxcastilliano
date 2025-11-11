@@ -78,9 +78,14 @@ bats require a for loop function that allows the bats to chase the character or 
 Need a message member variable that is also an array, should have different variety of messages that can be sent to the game and said to the character
 
 
+
 Methods needed:
 Start()? In order to activate the loops/classes
 Update()? To include the statements in the class/component. 
+
+### W7 
+Table 2 
+{Here is the design pocess of a game my table thought of; I focused on the Animation aspect of the game} (https://docs.google.com/document/d/1G_ZSCA2-UVtHll1uaPGUIZ9OZg3-oBIxvR5bJl7Vl6k/edit?usp=sharing)
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
